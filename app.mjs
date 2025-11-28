@@ -2,11 +2,10 @@
 import { defineConfig, createNotesQuery } from "./.app/app-config.js";
 
 export default defineConfig({
-  title: "Eleventy Notes",
-  description:
-    "A simple, lightweight, and flexible note-taking template for Eleventy.",
+  title: "Digital Justice Society",
+  description: "A blog for the DJS team :)",
   editThisNote: {
-    url: "https://github.com/rothsandro/eleventy-notes/edit/{{branch}}/{{file}}",
+    url: "https://codeberg.org/digitaljusticesociety/digitaljusticesociety-website/edit/{{branch}}/{{file}}",
   },
   staticAssets: {
     paths: { "public/": "/" },
@@ -18,7 +17,7 @@ export default defineConfig({
         path: "props",
         options: {
           date: {
-            locale: "en-US",
+            locale: "en-AU",
           },
         },
       },
@@ -27,33 +26,33 @@ export default defineConfig({
   sidebar: {
     links: [
       {
-        url: "https://github.com/rothsandro/eleventy-notes",
-        label: "GitHub / Support",
-        icon: "github",
+        url: "https://codeberg.org/digitaljusticesociety/",
+        label: "codeberg",
+        icon: "folder-git-2",
       },
       {
-        url: "https://www.buymeacoffee.com/sandroroth",
-        label: "Buy me a coffee",
-        icon: "coffee",
+        url: "https://handbook.digitaljusticesociety.org",
+        label: "handbook",
+        icon: "book",
       },
     ],
     sections: [
       {
-        label: "Introduction",
+        label: "About us",
         groups: [
           {
             query: createNotesQuery({
               pattern: "^/[^/]+$",
-              tags: ["basics"],
+              tags: ["about"],
             }),
           },
         ],
       },
       {
-        label: "Guides",
+        label: "Resources",
         groups: [
           {
-            label: "Writing Notes",
+            label: "Digital Security",
             query: createNotesQuery({
               pattern: "^/Writing/",
               tree: {
@@ -63,16 +62,15 @@ export default defineConfig({
               },
             }),
           },
+        ],
+      },
+      {
+        label: "Guides",
+        groups: [
           {
-            label: "Organizing Notes",
+            label: "AAAA",
             query: createNotesQuery({
-              pattern: "^/Organizing/",
-            }),
-          },
-          {
-            label: "Core Features",
-            query: createNotesQuery({
-              pattern: "^/Features/",
+              pattern: "^/Writing/",
               tree: {
                 replace: {
                   "^/\\w+": "",
@@ -80,20 +78,14 @@ export default defineConfig({
               },
             }),
           },
-          {
-            label: "Deployment",
-            query: createNotesQuery({
-              pattern: "^/Deployment/",
-            }),
-          },
         ],
       },
       {
-        label: "Releases",
+        label: "Blog",
         groups: [
           {
             query: createNotesQuery({
-              pattern: "^/Releases/",
+              pattern: "^/blog/",
             }),
           },
         ],
