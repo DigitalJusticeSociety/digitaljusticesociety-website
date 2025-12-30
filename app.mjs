@@ -49,12 +49,12 @@ export default defineConfig({
         ],
       },
       {
-        label: "Resources",
+        label: "Projects",
         groups: [
           {
-            label: "Digital Security",
+            label: "Gardenbed",
             query: createNotesQuery({
-              pattern: "^/Writing/",
+              pattern: "^/gardenbed/",
               tree: {
                 replace: {
                   "^/\\w+": "",
@@ -62,15 +62,10 @@ export default defineConfig({
               },
             }),
           },
-        ],
-      },
-      {
-        label: "Guides",
-        groups: [
           {
-            label: "AAAA",
+            label: "Digital Lounge",
             query: createNotesQuery({
-              pattern: "^/Writing/",
+              pattern: "^/digitallounge/",
               tree: {
                 replace: {
                   "^/\\w+": "",
