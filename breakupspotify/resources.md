@@ -1,6 +1,6 @@
 ---
 sort: 5
-tags: [spotify]
+tags: [resources]
 ---
 # Breakup with spotify!
 DJS has developped a series of resources (a zine and a workshop) about what we can do to combat mistreating of artists and the planet through streaming culture. 
