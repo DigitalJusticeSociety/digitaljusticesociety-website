@@ -73,6 +73,17 @@ export default defineConfig({
               },
             }),
           },
+          {
+            label: "Breakup with Spotify",
+            query: createNotesQuery({
+              pattern: "^/breakupspotify/",
+              tree: {
+                replace: {
+                  "^/\\w+": "",
+                },
+              },
+            }),
+          },
         ],
       },
       {
