@@ -49,7 +49,7 @@ export default defineConfig({
         ],
       },
       {
-        label: "Resources",
+        label: "Our Projects",
         groups: [
           {
             label: "Gardenbed",
