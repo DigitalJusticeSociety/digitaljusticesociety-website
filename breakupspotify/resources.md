@@ -9,4 +9,4 @@ We believe that artists deserve better. Music is for people, not for data centre
 
 All under the creative commons license too!! (this means you can print your own zines and run your own workshops, hooray!)
 
-## You can find our resources: https://cloud.rewind.org.au/s/3eaNsmAYCSygSsm
+## You can find our resources: https://cloud.rewind.org.au/s/3n87FFzJTsCpRfz
