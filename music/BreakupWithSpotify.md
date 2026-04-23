@@ -1,0 +1,12 @@
+---
+sort: 1
+tags: [resources]
+---
+# Breakup with spotify!
+DJS has developped a zine and a workshop about what we can do to combat the harms caused by streaming culture. (low artist pay, investing in military drones :(, consume all the earth electricty for computer :(( )
+
+We believe that artists deserve better. Music is for people, not for data centres! We explore concepts of engaging yourself, your friends and your community in more personal, intentional and intimate connections to music.
+
+All under the creative commons license too!! (this means you can print your own zines and run your own workshops, hooray!)
+
+## You can find our resources: https://cloud.rewind.org.au/s/3n87FFzJTsCpRfz

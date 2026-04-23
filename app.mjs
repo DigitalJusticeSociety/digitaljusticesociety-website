@@ -74,9 +74,9 @@ export default defineConfig({
             }),
           },
           {
-            label: "Breakup with Spotify",
+            label: "Local Music Ecologies",
             query: createNotesQuery({
-              pattern: "^/breakupspotify/",
+              pattern: "^/music/",
               tree: {
                 replace: {
                   "^/\\w+": "",
