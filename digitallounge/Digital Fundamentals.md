@@ -12,3 +12,5 @@ At it's most basic we:
  - Swap to librewolf / firefox browser with ublock origin
 
 Every 3 months the digital lounge becomes the Linux lounge, where we help people install and setup linux on their machines.
+
+## Digital lounge public resources: https://cloud.rewind.org.au/s/bZrCm4bM6Xk4rJK
