@@ -26,6 +26,21 @@ export default defineConfig({
   sidebar: {
     links: [
       {
+        url: "https://cloud.rewind.org.au/apps/calendar/p/fNf2kGArLrgtadrL",
+        label: "Calendar",
+        icon: "calendar",
+      },
+      {
+        url: "https://digitaljusticesociety.org.au",
+        label: "Matrix",
+        icon: "message-circle",
+      },
+      {
+        url: "https://adlsolarpunk.net/@digital_justice_society",
+        label: "Mastodon",
+        icon: "message-square-share",
+      },
+      {
         url: "https://codeberg.org/digitaljusticesociety/",
         label: "codeberg",
         icon: "folder-git-2",
@@ -35,48 +50,20 @@ export default defineConfig({
         label: "handbook",
         icon: "book",
       },
+      {
+        url: "https://www.instagram.com/digitaljusticesociety/",
+        label: "Instagram",
+        icon: "focus",
+      },
     ],
     sections: [
       {
-        label: "About us",
+        label: "",
         groups: [
-          {
-            query: createNotesQuery({
-              pattern: "^/[^/]+$",
-              tags: ["about"],
-            }),
-          },
-        ],
-      },
-      {
-        label: "Our Projects",
-        groups: [
-          {
-            label: "Gardenbed",
-            query: createNotesQuery({
-              pattern: "^/gardenbed/",
-              tree: {
-                replace: {
-                  "^/\\w+": "",
-                },
-              },
-            }),
-          },
           {
             label: "Digital Lounge",
             query: createNotesQuery({
               pattern: "^/digitallounge/",
-              tree: {
-                replace: {
-                  "^/\\w+": "",
-                },
-              },
-            }),
-          },
-          {
-            label: "Local Music Ecologies",
-            query: createNotesQuery({
-              pattern: "^/music/",
               tree: {
                 replace: {
                   "^/\\w+": "",
