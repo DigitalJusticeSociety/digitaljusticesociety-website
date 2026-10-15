@@ -13,4 +13,4 @@ We'll have a CD only DJ setup, so if you have any tracks you wanna share, slip s
 
 CD's are provided free of charge by DJS <3 But supplies are limited so BYO if you have one 👍
 
-## You can find our resources: NOT READY YET!
+## You can find our resources: [Here](https://cloud.rewind.org.au/s/TXMDDy9MZGZfm9j)
