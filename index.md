@@ -11,6 +11,8 @@ Welcome to the **Digital Justice Society**! We're a group of people dedicated to
 # The DJS theory of change.
 In order to survive through this poly-crisis shit sandwich, we need to make our communities resilient and steward networks of peer to peer solidarity. We need not the "one best solution" but many alternatives and backup plans. By shifting the use of technology within our communities onto open source, local first, federated, peer to peer, democratic and noncommercial (not mutually exclusive) we open the doors for greater connection and sharing.
 
+This is a really good explainer article that emphasizes the kind of change we hope to embody. [Beyond Security Culture](https://defy-this.ghost.io/beyond-security-culture/#building-genuine-resilience-to-repression)
+
 ## Tech Radar
 We've built a spreadsheet to track what software we're using and what we're trying to move away from. It's a source of nuanced opinion, not truth.
 
