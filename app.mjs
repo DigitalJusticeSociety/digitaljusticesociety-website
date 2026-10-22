@@ -30,11 +30,11 @@ export default defineConfig({
         label: "Calendar",
         icon: "calendar",
       },
-      {
-        url: "https://digitaljusticesociety.org.au",
-        label: "Matrix",
-        icon: "message-circle",
-      },
+      // {
+      //   url: "https://digitaljusticesociety.org.au",
+      //   label: "Matrix",
+      //   icon: "message-circle",
+      // },
       {
         url: "https://adlsolarpunk.net/@digital_justice_society",
         label: "Mastodon",
