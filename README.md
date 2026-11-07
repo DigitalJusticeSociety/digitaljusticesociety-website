@@ -1,17 +1,13 @@
-# Eleventy Notes
+# digitaljusticesociety.org
+## Getting Started
+1. install `Node.JS` and `npm`. we recommend using `nvm` for this!
+2. cd to the `.app` subdirectory
+3. run `npm install` to install `11ty` and any other dependencies 
+4. run `npm start`
 
-**Eleventy Notes is currently in beta. If you find any bugs or have any suggestions, please [open an issue](https://github.com/rothsandro/eleventy-notes/issues).**
+after a few seconds you should see something like this:
 
-Eleventy Notes is an opinionated template for publishing your personal notes, documentation, or even your blog! Built with [Eleventy](https://11ty.dev/), the powerful static site generator, Eleventy Notes is packed with features you'll love.
-
-With Eleventy Notes, you can:
-
-- ✅ Create Wikilinks and backlinks to easily navigate your content
-- ✅ Organize your content with Tags for easy searching and filtering
-- ✅ Quickly find what you need with a client-side search
-- ✅ Choose from two Themes and multiple color schemes to match your style
-- ✅ Customize your Sidebar with support for folders and subfolders
-- ✅ Enjoy a lightweight and fast experience, with minimal JavaScript
-- ... and much more!
-
-Whether you're a blogger, developer, or just someone who loves to write, Eleventy Notes has everything you need to publish your content. So what are you waiting for? Get started today by reading our [Getting started](https://eleventy-notes.sandroroth.com/n/getting-started/) guide and start sharing your thoughts with the world!
+```
+[11ty] Server at http://localhost:8080/
+```
+the project is now running, and you can open it in your browser at [http://localhost:8080/](http://localhost:8080/).
