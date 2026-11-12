@@ -5,7 +5,7 @@
 3. run `npm install` to install `11ty` and any other dependencies 
 4. run `npm start`
 
-after a few seconds you should see something like this:
+After a few seconds you should see something like this:
 
 ```
 [11ty] Server at http://localhost:8080/
