@@ -1,0 +1,20 @@
+{
+  "name": "digitaljusticesociety-website",
+  "version": "0.0.0",
+  "description": "Website of the Digital Justice Society - https://digitaljusticesociety.org",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://codeberg.org/digitaljusticesociety/digitaljusticesociety-website.git"
+  },
+  "author": "Digital Justice Society",
+  "license": "AGPL",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.8"
+  }
+}

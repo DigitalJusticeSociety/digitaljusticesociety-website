@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{{ title }}{% if page.url != '/' %} - {{ siteName }}{% endif %}</title>
+        <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
+    </head>
+
+    <body>
+        {% include "nav.njk" %}
+
+        {% if header %}
+            <header>
+                <h1>{{ header }}</h1>
+            </header>
+        {% endif %}
+
+        <main>
+            <article>
+                {{ content | safe }}
+            </article>
+        </main>
+
+        <footer>
+            <div>
+                <p>&copy; {% year %} {{ siteName }}</p>
+            </div>
+        </footer>
+
+    </body>
+</html>
